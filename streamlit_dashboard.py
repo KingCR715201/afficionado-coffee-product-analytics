@@ -32,7 +32,7 @@ st.markdown("""
 # -- Automated Data Pipeline Loading Layer --
 @st.cache_resource
 def load_and_cache_engine():
-    return CoffeeAnalyticsEngine(r"C:/Users/paras/OneDrive/My Projects or codes/Unified Mentor Projects/Project 2/Afficionado Coffee Roasters.xlsx - Transactions.csv")
+    return CoffeeAnalyticsEngine(r"Afficionado Coffee Roasters.xlsx - Transactions.csv")
 
 try:
     engine = load_and_cache_engine()
